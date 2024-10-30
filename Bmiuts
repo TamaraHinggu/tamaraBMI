@@ -1,0 +1,28 @@
+package com.mycompany.bmiuts;
+
+/**
+ *
+ * @author arlin
+ */
+public class Bmiuts {
+
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
+    }public class BmiJava {
+    public static void main(String[] args) {
+        int beratbadan = 50;
+        float tinggibadan = 150; // Tinggibadan sebaiknya dalam satuan meter (misalnya, 1.5)
+        float bmi = beratbadan / (tinggibadan * tinggibadan);
+
+        System.out.println("BMI saya adalah: " + bmi);
+
+        if (bmi < 18.5) {
+            System.out.println("Berat badan saya kurang");
+        } else if (bmi < 24.9) {
+            System.out.println("Berat badan saya normal");
+        } else {
+            System.out.println("Obesitas/Berat badan berlebihan");
+        }
+    }
+}
+}
